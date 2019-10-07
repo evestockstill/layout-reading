@@ -1,0 +1,78 @@
+body {
+    background: black;
+}
+h2 {
+    text-align: center;
+    color: white;
+}
+.container {
+    display: grid;
+    height: 100vh;
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 15px;
+}
+
+.cards {
+  color: #333;
+  font-size: 1rem;
+  text-align: center;
+  padding: 2rem;
+}
+.t1 {
+    background: hsla(360, 100%, 32%, 1);
+    transition: all 2s ease;
+    cursor: pointer;
+}
+.t1:hover {
+     background: black;
+     color: white;
+}
+.t2 {
+    background: hsla(24, 100%, 34%, 1);
+    transition: all 2s ease;
+    cursor: pointer;
+}
+.t2:hover {
+background: black;
+color: white;
+}
+.t3 {
+    background: rgb(206, 216, 9);
+    transition: all 1.3s ease;
+    cursor: pointer;
+}
+.t3:hover {
+ background: black;
+color: white;
+}
+.t4 {
+    background: hsla(144, 100%, 20%, 1);
+    transition: all 2s ease;
+    cursor: pointer;
+}
+.t4:hover {
+  background: black;
+color: white; 
+}
+.t5 {
+    background:hsla(220, 100%, 23%, 1);
+    transition: all 2s ease;
+    cursor: pointer;
+}
+.t5:hover {
+  background: black;
+color: white; 
+}
+.t6 {
+    background: hsla(241, 48%, 25%, 1);
+    transition: all 2s ease;
+    cursor: pointer;
+}
+.t6:hover {
+ background: black;
+color: white;
+}
+
