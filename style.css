@@ -1,78 +1,99 @@
 body {
-    background: black;
+  background: black;
+  margin: 0;
+  padding: 0;
 }
-h2 {
-    text-align: center;
+header {
     color: white;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 2rem;
 }
-.container {
-    display: grid;
-    height: 100vh;
+#container {
+  display: grid;
+  height: 100vh;
   margin: 2rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   gap: 15px;
 }
-
 .cards {
   color: #333;
   font-size: 1rem;
   text-align: center;
   padding: 2rem;
 }
-.t1 {
-    background: hsla(360, 100%, 32%, 1);
-    transition: all 2s ease;
-    cursor: pointer;
+.c1 {
+  color: black;
 }
-.t1:hover {
-     background: black;
-     color: white;
+.b1 {
+  color: hsla(360, 100%, 32%, 1);
 }
-.t2 {
-    background: hsla(24, 100%, 34%, 1);
-    transition: all 2s ease;
-    cursor: pointer;
+#c1 {
+  text-align: center;
+  background: hsla(360, 100%, 32%, 1);
+  transition: all 2s ease;
+  cursor: pointer;
 }
-.t2:hover {
-background: black;
-color: white;
-}
-.t3 {
-    background: rgb(206, 216, 9);
-    transition: all 1.3s ease;
-    cursor: pointer;
-}
-.t3:hover {
- background: black;
-color: white;
-}
-.t4 {
-    background: hsla(144, 100%, 20%, 1);
-    transition: all 2s ease;
-    cursor: pointer;
-}
-.t4:hover {
+#c1:hover {
   background: black;
-color: white; 
+  color: hsla(360, 100%, 32%, 1);
 }
-.t5 {
-    background:hsla(220, 100%, 23%, 1);
-    transition: all 2s ease;
-    cursor: pointer;
+#c2 {
+  background: hsla(24, 100%, 34%, 1);
+  transition: all 2s ease;
+  cursor: pointer;
 }
-.t5:hover {
+.b2 {
+  color: hsla(24, 100%, 34%, 1);
+}
+#c2:hover {
   background: black;
-color: white; 
+  color: hsla(24, 100%, 34%, 1);
 }
-.t6 {
-    background: hsla(241, 48%, 25%, 1);
-    transition: all 2s ease;
-    cursor: pointer;
+.b3 {
+  color: rgb(206, 216, 9);
 }
-.t6:hover {
- background: black;
-color: white;
+#c3 {
+  background: rgb(206, 216, 9);
+  transition: all 1.3s ease;
+  cursor: pointer;
 }
-
+#c3:hover {
+  background: black;
+}
+.b4 {
+  color: hsla(144, 100%, 20%, 1);
+}
+#c4 {
+  background: hsla(144, 100%, 20%, 1);
+  transition: all 2s ease;
+  cursor: pointer;
+}
+#c4:hover {
+  background: black;
+  color: white;
+}
+#c5 {
+  background: hsla(220, 100%, 23%, 1);
+  transition: all 2s ease;
+  cursor: pointer;
+}
+.b5 {
+  color: hsla(220, 100%, 23%, 1);
+}
+#c5:hover {
+  background: black;
+}
+.b6 {
+  color: hsla(241, 48%, 25%, 1);
+}
+#c6 {
+  background: hsla(241, 48%, 25%, 1);
+  transition: all 2s ease;
+  cursor: pointer;
+}
+#c6:hover {
+  background: black;
+}
